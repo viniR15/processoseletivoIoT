@@ -1,4 +1,8 @@
-# Sistema de Monitoramento de Temperatura e Abertura de Porta
+# Relatório: Sistema de Monitoramento de Temperatura e Abertura de Porta
+
+**Nome Completo:** Vinicius Reis de Lemos
+
+**GitHub:** https://github.com/viniR15/
 
 Projeto embarcado para ESP32 que monitora, ao mesmo tempo, o tempo em que
 uma porta/tampa fica aberta e variações bruscas de temperatura em um
@@ -118,3 +122,7 @@ comunicação do sistema não mude sem querer.
   contato mecânico.
 - Permitir configurar os limites (tempo e variação) via comando serial,
   sem precisar recompilar o firmware.
+
+## Problemas encontrados
+
+Os testes automatizados relacionados à proposta deste desafio não puderam ser concluídos. A causa aparente é um conflito entre o nome do SECRET sugerido (WOKWI_API_KEY) e o nome esperado pelo teste (WOKWI_CLI_TOKEN). Ainda que o nome da chave seja alterado para se adequar ao esperado pelo teste, outros problemas aparecerão (timeout) ainda relacionados a este conflito). Tendo em vista que a proposta de solução penaliza a edição de arquivos relacionados aos testes e que a possibilidade de soulução envolve essa edição, a minha solução proposta será entregue dessa maneira.
