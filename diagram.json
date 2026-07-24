@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Aluno",
+  "author": "Vinícius Reis de Lemos",
   "editor": "wokwi",
   "parts": [
     { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 4.7, "left": -101, "attrs": {} },
